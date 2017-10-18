@@ -2,25 +2,22 @@
     <div class="row">
         <div class="col-xs-12 col-md-6">
 
-          <img class="logo" src="assets/imgs/ukcarehomes-logo.jpg">
+            <img class="logo" src="assets/imgs/ukcarehomes-logo.jpg">
 
-          <map-input [mymap]="mymap"></map-input>
-          <p>
-          Here is a map of all the care homes in the United Kingdom. The colours show  <a href="http://www.cqc.org.uk"> Care Quality Commission</a>'s rating for each care home. Red pins are the lowest and green pins are the highest.
-          <br>
-          <br>
-          Click on a pin to see details on that care home and for further information click on 'More details here'.
-          </p>
-<!-- This paragraph below should go on the About page instead -->
- <!--          <p>
-            We at CIVIC REACTOR have noticed that more and more is expected to be done for less, we as a volunteer organisation are committed to the improvement
-            to access and publicly open data resources. to allow for wider usage and research from that data.
-            If you feel like you would like to get involved -
-            either with questions or suggestions to make it more useful,
-            or by getting more involved with this project or suggest another.
-            Please fill out the feedback form.
+            <!--<map-input [mymap]="mymap"></map-input>-->
+            <p>
+                Here is a map of the care homes in the United Kingdom as compliled by the <a href="http://www.cqc.org.uk"> Care Quality Commission</a> the body empowered to monitor, inspect and regulate health and social care services.
+                They publish what they find, including ratings to help people choose care.
+                Using a rating for each care home.
 
-            Thank you from the Civic Reactor Team. </p> -->
+                We are trying to create a portal of sharing this information in a more user friendly way.
+                by allowing you to search my place, town or postcode and showing the care homes in that area.
+            </p><map-input [mymap]="mymap"></map-input><p>
+            Following the CQC rating system, we colour the pins. Displaying the contact details of the home and rating of its last report.
+            Then for further information click on 'More details here' to be directed to the cqc information of that home.
+            <br>
+            P.S. Click on a pin to see details on that care home and for further information click on 'More details here'.
+        </p>
         </div>
 
         <div class="col-xs-12 col-md-6">
