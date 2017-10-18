@@ -13,38 +13,38 @@ export class AboutCmp {
       name: 'Olivia',
       role: 'Front End Developer & Designer',
       img: 'assets/imgs/olivia_avatar.jpg',
-      description: 'Technical Support Engineer by day and Full Stack Ruby Developer by night with a flare for Design on the side.'
+      description: 'Technical Support Engineer by day and Full Stack Ruby Developer by night with a flare for design on the side.'
     },
     {
       name: 'Colin',
       role: 'Solution Architect',
       img: 'assets/imgs/colin_avatar.jpg',
-      description: 'Full rounded IT profession, sharing his skills for a better world'
+      description: 'Full rounded IT professional, sharing his skills for a better world'
     },
     {
       name: 'Anna',
       role: 'Project Manager',
       img: '',
-      description: 'Profession Cat herder, improving my skill through practical projects.'
+      description: 'Professional Cat herder, improving my skills through practical projects.'
     },
     {
       name: 'Antonio',
       role: 'Front-end developer',
       img: '',
-      description: 'Tech team, build and Junior developer.'
+      description: 'Tech team, builder and junior developer.'
     },
     {
       name: 'Dean',
       role: 'Full Stack Ruby Developer',
       img: '',
       description: 'Hobby technologist and Ruby on Rails developer.  Keen to learn new languages and work on\ ' +
-      'big projects in collaboration with others.'
+      'large projects in collaboration with others.'
     },
     {
       name: 'Carlos',
       role: 'Full-stack developer',
       img: 'assets/imgs/carlos_avatar.jpg',
-      description: 'JavaScript and Java developer during the day. Enjoy learning new things: Angular2, task runners,\ ' +
+      description: 'JavaScript and Java developer during the day who enjoys learning new things: Angular2, task runners,\ ' +
       'functional programming, algorithms and... days are short!'
     }
   ];
